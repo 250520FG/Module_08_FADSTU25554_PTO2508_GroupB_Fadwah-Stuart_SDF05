@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer Example</title>
+    <title>Footer Refractor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -14,28 +14,34 @@
                 <div class="container px-6 py-12 mx-auto">
                     <div class="grid">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
+                            <h1 class="max-w-lg" >Subscribe to our newsletter.</h1>
+                            </div>
+                            <div class="flex-row justify-between">
+                                <input id="email" type="text" placeholder="Enter your email" class="w-relative px-4 py-2.5 border border-white focus:outline-none">
+                                </div>
+                                <div>
+                                <button class="w-relative px-6 py-2.5 bg-orange-600 text-white:bg-orange-600 focus:outline-none">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
                             <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
+                            <div class="flex-row ">
+
+                                <a href="/home">Home</a>
+                                <a href="/who we are">Who We Are</a>
+                                <a href="/our philosophy">Our Philosophy</a>
                             </div>
                         </div>
                         <div>
                             <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+                            <div class="flex-row">
+                                <a href="/html">HTML</a>
+                                <a href="/css">CSS</a>
+                                <a href="/javascript">JavaScript</a>
+
+
                             </div>
                         </div>
                     </div>
